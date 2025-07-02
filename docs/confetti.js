@@ -257,25 +257,11 @@
             e
     }();
     var d = [{}, {
-        confettiRadius: 12,
-        confettiesNumber: 100
-    }, {
         emojies: ["🏃‍♀️", "🥗", "🧠", "🛏️", "🧼", "💗"]
     }, {
         emojies: ["🔋", "✨", "🤝", "🧘"]
     }, {
-        emojies: ["💪"],
-        confettiRadius: 100,
-        confettiesNumber: 30
-    }, {
-        confettiColors: ["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"],
-        confettiRadius: 10,
-        confettiesNumber: 150
-    }, {
-        confettiColors: ["#9b5de5", "#f15bb5", "#fee440", "#00bbf9", "#00f5d4"],
-        confettiRadius: 6,
-        confettiesNumber: 300
-    }];
+        emojies: ["💪"]}];
     window.onload = function () {
         var t = new l
             , e = document.getElementById( "button" );
